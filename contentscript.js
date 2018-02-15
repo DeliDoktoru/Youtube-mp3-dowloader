@@ -11,7 +11,7 @@ else{
 	chrome.runtime.sendMessage({value: "true"}, function(response) {
 	document.querySelector("#texturl").value=response.response;
 	document.querySelector("#convert1").click();
-	 setTimeout(indir,500);
+	
 });
 }
 
